@@ -1,0 +1,7 @@
+body{font-family:"Helvetica";}
+.profile-img1{height: 25px;display: block;-moz-border-radius: 50%;-webkit-border-radius: 50%;border-radius: 50%;}
+.profile-img2{height: 90px;margin: 0 auto 10px;display: block;-moz-border-radius: 50%;-webkit-border-radius: 50%;border-radius: 50%;}
+.footer {position: fixed;left:0;bottom: 0;width: 100%;text-align: center;line-height: 35px; }
+@media (min-width: 992px) {.footer {width: calc(100% - 135px); } }
+.card300{height: 120px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.card-body-icon {position: absolute;z-index: 0;top: 10px;left: 10px;color:#fff;text-shadow: 3px 3px 16px #272634;}
