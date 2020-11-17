@@ -1,11 +1,8 @@
 <?php
-// echo  $_SERVER["DOCUMENT_ROOT"];
- //echo phpinfo();
-$port = $_SERVER['SERVER_PORT'];
-if($port == 80){$protocolo = "http://";}
-if($port == 443){$protocolo = "https://";}
-$url = $protocolo . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
-echo "URL = " . $url;
+	$port = $_SERVER['SERVER_PORT'];
+	if($port == 80){$protocolo = "http://";}
+	if($port == 443){$protocolo = "https://";}
+	$url = $protocolo . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
 ?>
 
 <html lang="es">
