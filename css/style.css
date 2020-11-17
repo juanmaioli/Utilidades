@@ -1,2 +1,3 @@
 body{font-family:"Helvetica";}
 textarea {border: none; outline: none;resize: none;width: 100%;height: 100%;color:#666;font-style: normal;font-family:"Lucida Console", Monaco, monospace;}
+.card{box-shadow: 0 4px 8px 0 rgba(185, 134, 134, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);}
