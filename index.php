@@ -14,6 +14,15 @@
 		<meta name="author" content="">
 		<title>Utilidades</title>
 		<!-- Bootstrap core CSS -->
+
+		<?php 
+		$path = $_SERVER['DOCUMENT_ROOT'];
+		$path .= "/utilidades/raw/bootstrap";
+		include_once($path);
+		?>
+
+
+
 		<link href="<?=$url?>css/bootstrap.min.css?version=4.5.3" rel="stylesheet">
 		<!-- ??? pirate fontawesome.com -->
 		<link rel="stylesheet" href="<?=$url?>css/all.min.css?version=5.15.1">
@@ -82,7 +91,7 @@
 			<div class="card"> 
 				<div class="card-header"><h3 class="">Repositorio Utilidades <i class="fab fa-github"></i></h3></div>
 					<div class="card-body">
-					<h4>Version 2.9.3</h4>
+					<h4>Version 17/11/2020</h4>
 						<textarea class="" name="" id="" rows="5">https://github.com/juanmaioli/utilidades</textarea>
 					</div>
 				<div class="card-footer"><a href='https://github.com/juanmaioli/utilidades' target="_blank">github.com</a> Update: 17/11/2020</div>
