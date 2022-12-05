@@ -1,0 +1,185 @@
+/*Bootstrap Color Extension V1.0.0
+MIT License
+Copyright (c) 2022 Juan Gabriel Maioli
+*/
+
+/* Colors names from https://hue.tools */
+:root {
+  --bs-cyan: #0dcaf0; /*Tropical Turquoise*/
+  --bs-darkblue:#2b6be1;/*Bluetiful*/
+  --bs-darkgray: #555;/*Heavy Charcoal*/
+  --bs-green: #198754;/*Primal Green*/
+  --bs-indigo: #6610f2;/*Space Opera*/
+  --bs-lemon: #80eb15;/*Poisonous Pistachio*/
+  --bs-lightgray: #DDDDDD;/*Steam*/
+  --bs-lightpink:#e5b1c2;/*Pink Macaroon*/
+  --bs-magenta:#c20952;/*Love Potion*/
+  --bs-darkmagenta:#74366F;/*Eminence*/
+  --bs-orange: #fd7e14;/*Habanero*/
+  --bs-pink: #d63384;/*Shrine of Pleasures*/
+  --bs-purple: #6f42c1;/*Purple Rain*/
+  --bs-teal: #20c997;/*Seaweed*/
+  --bs-yellow: #f5b800;/*Curry Bubbles*/
+}
+
+.text-cyan {color: var(--bs-cyan) !important;}
+.text-darkblue {color: var(--bs-darkblue) !important;}
+.text-darkgray {color: var(--bs-darkgray) !important;}
+.text-green {color: var(--bs-green) !important;}
+.text-indigo {color: var(--bs-indigo) !important;}
+.text-lemon {color: var(--bs-lemon) !important;}
+.text-lightgray {color: var(--bs-lightgray) !important;}
+.text-magenta {color: var(--bs-magenta) !important;}
+.text-orange {color: var(--bs-orange) !important;}
+.text-pink {color: var(--bs-pink) !important;}
+.text-lightpink {color: var(--bs-lightpink) !important;}
+.text-purple {color: var(--bs-purple) !important;}
+.text-teal {color: var(--bs-teal) !important;}
+.text-yellow {color: var(--bs-yellow) !important;}
+
+.bg-cyan {background-color: var(--bs-cyan) !important;}
+.bg-darkblue {background-color: var(--bs-darkblue) !important;}
+.bg-darkgray {background-color: var(--bs-darkgray) !important;}
+.bg-green {background-color: var(--bs-green) !important;}
+.bg-indigo {background-color: var(--bs-indigo) !important;}
+.bg-lemon {background-color: var(--bs-lemon) !important;}
+.bg-lightgray {background-color: var(--bs-lightgray) !important;}
+.bg-lightpink {background-color: var(--bs-lightpink) !important;}
+.bg-magenta {background-color: var(--bs-magenta) !important;}
+.bg-orange {background-color: var(--bs-orange) !important;}
+.bg-pink {background-color: var(--bs-pink) !important;}
+.bg-purple {background-color: var(--bs-purple) !important;}
+.bg-teal {background-color: var(--bs-teal) !important;}
+.bg-yellow {background-color: var(--bs-yellow) !important;}
+
+.border-cyan {border-color: var(--bs-cyan) !important;}
+.border-darkblue {border-color: var(--bs-darkblue) !important;}
+.border-darkgray {border-color: var(--bs-darkgray) !important;}
+.border-green {border-color: var(--bs-green) !important;}
+.border-indigo {border-color: var(--bs-indigo) !important;}
+.border-lemon {border-color: var(--bs-lemon) !important;}
+.border-lightgray {border-color: var(--bs-lightgray) !important;}
+.border-lightpink {border-color: var(--bs-lightpink) !important;}
+.border-magenta {border-color: var(--bs-magenta) !important;}
+.border-orange {border-color: var(--bs-orange) !important;}
+.border-pink {border-color: var(--bs-pink) !important;}
+.border-purple {border-color: var(--bs-purple) !important;}
+.border-teal {border-color: var(--bs-teal) !important;}
+.border-yellow {border-color: var(--bs-yellow) !important;}
+
+.hr-cyan {border-top: 1px solid var(--bs-cyan) !important;}
+.hr-danger {border-top: 1px solid #C82333;}
+.hr-darkblue {border-top: 1px solid var(--bs-darkblue) !important;}
+.hr-darkgray {border-top: 1px solid var(--bs-darkgray) !important;}
+.hr-green {border-top: 1px solid var(--bs-green) !important;}
+.hr-indigo{border-top: 1px solid var(--bs-indigo) !important;}
+.hr-lemon {border-top: 1px solid var(--bs-lemon) !important;}
+.hr-lightgray {border-top: 1px solid var(--bs-lightgray) !important;}
+.hr-lightpink {border-top: 1px solid var(--bs-lightpink) !important;}
+.hr-magenta {border-top: 1px solid var(--bs-magenta) !important;}
+.hr-orange {border-top: 1px solid var(--bs-orange) !important;}
+.hr-pink {border-top: 1px solid var(--bs-pink) !important;}
+.hr-purple {border-top: 1px solid var(--bs-purple) !important;}
+.hr-teal {border-top: 1px solid var(--bs-teal) !important;}
+.hr-yellow {border-top: 1px solid var(--bs-yellow) !important;}
+
+.btn-cyan {color:#fff; background-color: var(--bs-cyan) ;border-color: var(--bs-cyan) ;}
+.btn-cyan:focus {background-color: #0aa1c0 ;border-color: var(--bs-cyan) ;box-shadow: 0 0 0 0.25rem rgba(13, 202, 240, 0.5);}
+.btn-cyan:hover {color:#fff; background-color: #0aa1c0 ;border-color: var(--bs-cyan) ;}
+.btn-darkblue {color:#fff; background-color: var(--bs-darkblue) ;border-color: var(--bs-darkblue) ;}
+.btn-darkblue:focus {background-color: #1b54be ;border-color: var(--bs-darkblue) ;box-shadow: 0 0 0 0.25rem rgba(43, 107, 225, 0.5);}
+.btn-darkblue:hover {color:#fff; background-color: #1b54be ;border-color: var(--bs-darkblue) ;}
+.btn-darkgray {color:#fff; background-color: var(--bs-darkgray) ;border-color: var(--bs-darkgray) ;}
+.btn-darkgray:focus {background-color: #3c3c3c ;border-color: var(--bs-darkgray) ;box-shadow: 0 0 0 0.25rem rgba(85, 85, 85, 0.5);}
+.btn-darkgray:hover {color:#fff; background-color: #3c3c3c ;border-color: var(--bs-darkgray) ;}
+.btn-green {color:#fff; background-color: var(--bs-green) ;border-color: var(--bs-green) ;}
+.btn-green:focus {background-color: #115c39;border-color: var(--bs-green) ;box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.5);}
+.btn-green:hover {color:#fff; background-color: #115c39;border-color: var(--bs-green) ;}
+.btn-indigo {color:#fff; background-color: var(--bs-indigo) ;border-color: var(--bs-indigo) ;}
+.btn-indigo:focus {background-color: #510bc4 ;border-color: var(--bs-indigo) ;box-shadow: 0 0 0 0.25rem rgba(102, 16, 242, 0.5);}
+.btn-indigo:hover {color:#fff; background-color: #510bc4 ;border-color: var(--bs-indigo) ;}
+.btn-lemon {color:#fff; background-color: var(--bs-lemon) ;border-color: var(--bs-lemon) ;}
+.btn-lemon:focus {background-color: #67bd10 ;border-color: var(--bs-lemon) ;box-shadow: 0 0 0 0.25rem rgba(128, 235, 21, 0.5);}
+.btn-lemon:hover {color:#fff; background-color: #67bd10 ;border-color: var(--bs-lemon) ;}
+.btn-lightgray {color:#fff; background-color: var(--bs-lightgray) ;border-color: var(--bs-lightgray) ;}
+.btn-lightgray:focus {background-color: #c4c4c4 ;border-color: var(--bs-lightgray) ;box-shadow: 0 0 0 0.25rem rgba(221, 221, 221, 0.5);}
+.btn-lightgray:hover {color:#fff; background-color: #c4c4c4 ;border-color: var(--bs-lightgray) ;}
+.btn-lightpink {color:#fff; background-color: var(--bs-lightpink) ;border-color: var(--bs-lightpink) ;}
+.btn-lightpink:focus {background-color: #d88ba4 ;border-color: var(--bs-lightpink) ;box-shadow: 0 0 0 0.25rem rgba(229, 177, 194, 0.5);}
+.btn-lightpink:hover {color:#fff; background-color: #d88ba4 ;border-color: var(--bs-lightpink) ;}
+.btn-magenta {color:#fff; background-color: var(--bs-magenta) ;border-color: var(--bs-magenta) ;}
+.btn-magenta:focus {background-color: #91073d;border-color: var(--bs-magenta) ;box-shadow: 0 0 0 0.25rem rgba(194, 9, 82, 0.5);}
+.btn-magenta:hover {color:#fff; background-color: #91073d;border-color: var(--bs-magenta) ;}
+.btn-orange {color:#fff; background-color: var(--bs-orange) ;border-color: var(--bs-orange) ;}
+.btn-orange:focus {background-color: #dc6502 ;border-color: var(--bs-orange) ;box-shadow: 0 0 0 0.25rem rgba(245, 184, 0, 0.5);}
+.btn-orange:hover {color:#fff; background-color: #dc6502 ;border-color: var(--bs-orange) ;}
+.btn-pink {color:#fff; background-color: var(--bs-pink) ;border-color: var(--bs-pink) ;}
+.btn-pink:focus {background-color: #b2246b ;border-color: var(--bs-pink) ;box-shadow: 0 0 0 0.25rem rgba(214, 51, 132, 0.5);}
+.btn-pink:hover {color:#fff; background-color: #b2246b ;border-color: var(--bs-pink) ;}
+.btn-purple {color:#fff; background-color: var(--bs-purple) ;border-color: var(--bs-purple) ;}
+.btn-purple:focus {background-color: #59339d ;border-color: var(--bs-purple) ;box-shadow: 0 0 0 0.25rem rgba(111, 66, 193, 0.5);}
+.btn-purple:hover {color:#fff; background-color: #59339d ;border-color: var(--bs-purple) ;}
+.btn-teal {color:#fff; background-color: var(--bs-teal) ;border-color: var(--bs-teal) ;}
+.btn-teal:focus {background-color: #199d76 ;border-color: var(--bs-teal) ;box-shadow: 0 0 0 0.25rem rgba(32, 201, 151, 0.5);}
+.btn-teal:hover {color:#fff; background-color: #199d76 ;border-color: var(--bs-teal) ;}
+.btn-yellow {color:#fff; background-color: var(--bs-yellow) ;border-color: var(--bs-yellow) ;}
+.btn-yellow:focus{background-color:  var(--bs-yellow);border-color:  var(--bs-yellow) ;box-shadow: 0 0 0 0.25rem rgba(245, 184, 0, 0.5);}
+.btn-yellow:hover {color:#fff; background-color: #c29200 ;border-color: var(--bs-yellow) ;}
+
+.btn-outline-cyan {color:var(--bs-cyan) ;border-color: var(--bs-cyan) ;}
+.btn-outline-cyan:focus {background-color: #0aa1c0 ;border-color: var(--bs-cyan) ;box-shadow: 0 0 0 0.25rem rgba(13, 202, 240, 0.5);}
+.btn-outline-cyan:hover {color:#fff; background-color: #0aa1c0 ;border-color: var(--bs-cyan) ;}
+.btn-outline-darkblue {color: var(--bs-darkblue) ;border-color: var(--bs-darkblue) ;}
+.btn-outline-darkblue:focus {background-color: #1b54be ;border-color: var(--bs-darkblue) ;box-shadow: 0 0 0 0.25rem rgba(43, 107, 225, 0.5);}
+.btn-outline-darkblue:hover {color:#fff; background-color: #1b54be ;border-color: var(--bs-darkblue) ;}
+.btn-outline-darkgray {color:var(--bs-darkgray) ;border-color: var(--bs-darkgray) ;}
+.btn-outline-darkgray:focus {background-color: #3c3c3c ;border-color: var(--bs-darkgray) ;box-shadow: 0 0 0 0.25rem rgba(85, 85, 85, 0.5);}
+.btn-outline-darkgray:hover {color:#fff; background-color: #3c3c3c ;border-color: var(--bs-darkgray) ;}
+.btn-outline-green {color:var(--bs-green) ;border-color: var(--bs-green) ;}
+.btn-outline-green:focus {background-color: #115c39;border-color: var(--bs-green) ;box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.5);}
+.btn-outline-green:hover {color:#fff; background-color: #115c39;border-color: var(--bs-green) ;}
+.btn-outline-indigo {color: var(--bs-indigo) ;border-color: var(--bs-indigo) ;}
+.btn-outline-indigo:focus {background-color: #510bc4 ;border-color: var(--bs-indigo) ;box-shadow: 0 0 0 0.25rem rgba(102, 16, 242, 0.5);}
+.btn-outline-indigo:hover {color:#fff; background-color: #510bc4 ;border-color: var(--bs-indigo) ;}
+.btn-outline-lemon {color:var(--bs-lemon) ;border-color: var(--bs-lemon) ;}
+.btn-outline-lemon:focus {background-color: #67bd10 ;border-color: var(--bs-lemon) ;box-shadow: 0 0 0 0.25rem rgba(128, 235, 21, 0.5);}
+.btn-outline-lemon:hover {color:#fff; background-color: #67bd10 ;border-color: var(--bs-lemon) ;}
+.btn-outline-lightgray {color:var(--bs-lightgray) ;border-color: var(--bs-lightgray) ;}
+.btn-outline-lightgray:focus {background-color: #c4c4c4 ;border-color: var(--bs-lightgray) ;box-shadow: 0 0 0 0.25rem rgba(221, 221, 221, 0.5);}
+.btn-outline-lightgray:hover {color:#fff; background-color: #c4c4c4 ;border-color: var(--bs-lightgray) ;}
+.btn-outline-lightpink {color:var(--bs-lightpink) ;border-color: var(--bs-lightpink) ;}
+.btn-outline-lightpink:focus {background-color: #d88ba4 ;border-color: var(--bs-lightpink) ;box-shadow: 0 0 0 0.25rem rgba(229, 177, 194, 0.5);}
+.btn-outline-lightpink:hover {color:#fff; background-color: #d88ba4 ;border-color: var(--bs-lightpink) ;}
+.btn-outline-magenta {color:var(--bs-magenta) ;border-color: var(--bs-magenta) ;}
+.btn-outline-magenta:focus {background-color: #91073d;border-color: var(--bs-magenta) ;box-shadow: 0 0 0 0.25rem rgba(194, 9, 82, 0.5);}
+.btn-outline-magenta:hover {color:#fff; background-color: #91073d;border-color: var(--bs-magenta) ;}
+.btn-outline-orange {color:var(--bs-orange) ;border-color: var(--bs-orange) ;}
+.btn-outline-orange:focus {background-color: #dc6502 ;border-color: var(--bs-orange) ;box-shadow: 0 0 0 0.25rem rgba(245, 184, 0, 0.5);}
+.btn-outline-orange:hover {color:#fff; background-color: #dc6502 ;border-color: var(--bs-orange) ;}
+.btn-outline-pink {color:var(--bs-pink) ;border-color: var(--bs-pink) ;}
+.btn-outline-pink:focus {background-color: #b2246b ;border-color: var(--bs-pink) ;box-shadow: 0 0 0 0.25rem rgba(214, 51, 132, 0.5);}
+.btn-outline-pink:hover {color:#fff; background-color: #b2246b ;border-color: var(--bs-pink) ;}
+.btn-outline-purple {color:var(--bs-purple) ;border-color: var(--bs-purple) ;}
+.btn-outline-purple:focus {background-color: #59339d ;border-color: var(--bs-purple) ;box-shadow: 0 0 0 0.25rem rgba(111, 66, 193, 0.5);}
+.btn-outline-purple:hover {color:#fff; background-color: #59339d ;border-color: var(--bs-purple) ;}
+.btn-outline-teal {color:var(--bs-teal) ;border-color: var(--bs-teal) ;}
+.btn-outline-teal:focus {background-color: #199d76 ;border-color: var(--bs-teal) ;box-shadow: 0 0 0 0.25rem rgba(32, 201, 151, 0.5);}
+.btn-outline-teal:hover {color:#fff; background-color: #199d76 ;border-color: var(--bs-teal) ;}
+.btn-outline-yellow {color:var(--bs-yellow) ;border-color: var(--bs-yellow) ;}
+.btn-outline-yellow:focus{background-color:  var(--bs-yellow);border-color:  var(--bs-yellow) ;box-shadow: 0 0 0 0.25rem rgba(245, 184, 0, 0.5);}
+.btn-outline-yellow:hover {color:#fff; background-color: #c29200 ;border-color: var(--bs-yellow) ;}
+
+.alert-cyan {color: var(--bs-cyan) ;border-color: #bcf1fb; background-color: #ddf8fd} /*border 87%, bg 94%*/
+.alert-darkblue {color: var(--bs-darkblue) ;border-color: #b1c8f4; background-color: #dee8fa}
+.alert-darkgray {color: var(--bs-darkgray) ;border-color: #ddd; background-color: #f6f6f6}
+.alert-green {color: var(--bs-green) ;border-color: #cbf5e2; background-color: #e8fbf2}
+.alert-indigo {color: var(--bs-indigo) ;border-color: #d7c1fc; background-color: #ece1fd}
+.alert-lemon {color: var(--bs-lemon) ;border-color: #ddfac1; background-color: #eefce0}
+.alert-lightgray {color: #bbb ;border-color: var(--bs-lightgray) ; background-color: #eee}
+.alert-magenta {color: var(--bs-magenta) ;border-color: #fbadcc; background-color: #fdddea}
+.alert-orange {color: var(--bs-orange) ;border-color: #fed1ac; background-color: #ffedde}
+.alert-pink {color: var(--bs-pink) ;border-color: #f2c0d9; background-color: #f8ddea}
+.alert-lightpink {color: var(--bs-lightpink) ;border-color: #dd98ae; background-color: #faf1f4}
+.alert-purple {color: var(--bs-purple) ;border-color: #d0c2eb; background-color: #eee8f8}
+.alert-teal {color: var(--bs-teal) ;border-color: #c0f5e5; background-color: #ecfcf7}
+.alert-yellow {color: var(--bs-yellow) ;border-color: #ffe38f; background-color: #fff0c2}
