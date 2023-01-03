@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="500"
+   viewBox="0 0 101.91617 101.91621"
+   width="500"
+   version="1.1"
+   id="svg16"
+   sodipodi:docname="google-fonts-seeklogo.com.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs20" />
+  <sodipodi:namedview
+     id="namedview18"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.664"
+     inkscape:cx="234.375"
+     inkscape:cy="250"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="760"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg16" />
+  <g
+     id="g310"
+     transform="matrix(0.20338314,0,0,0.20338314,0.20383241,11.562781)">
+    <path
+       d="M 0,387.4 245.52,2.01 377.12,85.85 185.01,387.4 Z"
+       fill="#fbbc04"
+       id="path2" />
+    <path
+       d="M 240.33,0 H 391.46 V 387.4 H 240.33 Z"
+       fill="#1a73e8"
+       id="path4" />
+    <circle
+       cx="83.720001"
+       cy="81.349998"
+       fill="#ea4335"
+       r="74.910004"
+       id="circle6" />
+    <path
+       d="M 499.1,279.76 A 107.64,107.64 0 0 1 391.46,387.4 V 172.13 A 107.64,107.64 0 0 1 499.1,279.76 Z"
+       fill="#34a853"
+       id="path8" />
+    <path
+       d="M 391.46,172.13 V 387.4 a 107.64,107.64 0 0 1 0,-215.27 z"
+       fill="#0d652d"
+       id="path10" />
+    <path
+       d="m 474.3,89.29 a 82.85,82.85 0 0 1 -82.84,82.84 V 6.44 a 82.85,82.85 0 0 1 82.84,82.85 z"
+       fill="#1a73e8"
+       id="path12" />
+    <path
+       d="m 391.46,6.44 v 165.69 a 82.85,82.85 0 0 1 0,-165.69 z"
+       fill="#174ea6"
+       id="path14" />
+  </g>
+</svg>
