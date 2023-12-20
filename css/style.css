@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../webfonts/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../webfonts/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../webfonts/Lato-Regular.ttf");
+}
+
 body{font-family: 'Lato', sans-serif;}
 h3{font-family: 'Montserrat', sans-serif;}
 h4{font-family: 'Roboto', sans-serif;}

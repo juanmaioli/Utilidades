@@ -23,8 +23,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <!-- Google Fonts -->
-    <style> @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&family=Roboto&display=swap'); </style>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css?version=4.5.3" rel="stylesheet">
     <!-- Bootstrap color extension CSS -->
@@ -226,7 +224,24 @@
 font-family: 'Lato', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif
-&lt;/style&gt;</code></pre>
+&lt;/style&gt;
+// Usando las fuentes desde el servidor local
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../webfonts/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../webfonts/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../webfonts/Lato-Regular.ttf");
+}
+
+</code></pre>
               </div>
             <div class="card-footer">
               <span class="me-3"><img src="./images/googlefonts.svg" height="24px"  alt="JavaScript Logo"></span>
